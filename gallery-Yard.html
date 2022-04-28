@@ -1221,27 +1221,6 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="" /> -->
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/> 
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="" /> -->
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8f47f7dd-039f-40cc-b478-58e4ad816e27.png" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8f47f7dd-039f-40cc-b478-58e4ad816e27.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/> 
@@ -1261,7 +1240,7 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e9b8522c-a469-4b08-b72f-2bc6fd5eadd4.png" alt="" /> -->
                              
@@ -1282,7 +1261,7 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f81534ee-938b-4615-96f5-22db4b9b909e.png" alt="" /> -->
                              
@@ -1303,13 +1282,34 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/611f4b63-f013-4017-9f9b-9019454b670e.png" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/611f4b63-f013-4017-9f9b-9019454b670e.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/611f4b63-f013-4017-9f9b-9019454b670e.png" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/611f4b63-f013-4017-9f9b-9019454b670e.png" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="" /> -->
                             
                         </div>
 
@@ -1645,7 +1645,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8f47f7dd-039f-40cc-b478-58e4ad816e27.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1653,7 +1653,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8f47f7dd-039f-40cc-b478-58e4ad816e27.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e9b8522c-a469-4b08-b72f-2bc6fd5eadd4.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1661,7 +1661,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e9b8522c-a469-4b08-b72f-2bc6fd5eadd4.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f81534ee-938b-4615-96f5-22db4b9b909e.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1669,7 +1669,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f81534ee-938b-4615-96f5-22db4b9b909e.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/611f4b63-f013-4017-9f9b-9019454b670e.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1677,7 +1677,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/611f4b63-f013-4017-9f9b-9019454b670e.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3e7e7a5f-e9a4-43c3-a4b2-e0e6181a6f31.png" alt="Yard for Blue Eagle Junk Removal in Oakland County, MI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1990,6 +1990,14 @@
                           
                           
                           
+                          
+                          <li>
+                              <a
+                                  href='sitemap.xml'
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Sitemap</a
+                              >
+                          </li>
                           
                       </ul>
                   </div>
@@ -2335,156 +2343,156 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198003"
-                                                    name="198003"
+                                                    id="contact-service-198033"
+                                                    name="198033"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Appliance Removal"
                                             />
-                                            <label for="contact-label-service-198003" class="ml-3 text-sm font-medium text-gray-700">Appliance Removal</label>
+                                            <label for="contact-label-service-198033" class="ml-3 text-sm font-medium text-gray-700">Appliance Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198004"
-                                                    name="198004"
+                                                    id="contact-service-198034"
+                                                    name="198034"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Hot Tub Removal"
                                             />
-                                            <label for="contact-label-service-198004" class="ml-3 text-sm font-medium text-gray-700">Hot Tub Removal</label>
+                                            <label for="contact-label-service-198034" class="ml-3 text-sm font-medium text-gray-700">Hot Tub Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198005"
-                                                    name="198005"
+                                                    id="contact-service-198035"
+                                                    name="198035"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Commercial Services"
                                             />
-                                            <label for="contact-label-service-198005" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
+                                            <label for="contact-label-service-198035" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198006"
-                                                    name="198006"
+                                                    id="contact-service-198036"
+                                                    name="198036"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Electronic Waste Removal"
                                             />
-                                            <label for="contact-label-service-198006" class="ml-3 text-sm font-medium text-gray-700">Electronic Waste Removal</label>
+                                            <label for="contact-label-service-198036" class="ml-3 text-sm font-medium text-gray-700">Electronic Waste Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198007"
-                                                    name="198007"
+                                                    id="contact-service-198037"
+                                                    name="198037"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Furniture Removal"
                                             />
-                                            <label for="contact-label-service-198007" class="ml-3 text-sm font-medium text-gray-700">Furniture Removal</label>
+                                            <label for="contact-label-service-198037" class="ml-3 text-sm font-medium text-gray-700">Furniture Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198008"
-                                                    name="198008"
+                                                    id="contact-service-198038"
+                                                    name="198038"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Garbage Removal"
                                             />
-                                            <label for="contact-label-service-198008" class="ml-3 text-sm font-medium text-gray-700">Garbage Removal</label>
+                                            <label for="contact-label-service-198038" class="ml-3 text-sm font-medium text-gray-700">Garbage Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198009"
-                                                    name="198009"
+                                                    id="contact-service-198039"
+                                                    name="198039"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Cleanouts"
                                             />
-                                            <label for="contact-label-service-198009" class="ml-3 text-sm font-medium text-gray-700">Cleanouts</label>
+                                            <label for="contact-label-service-198039" class="ml-3 text-sm font-medium text-gray-700">Cleanouts</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198010"
-                                                    name="198010"
+                                                    id="contact-service-198040"
+                                                    name="198040"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mattress Removal"
                                             />
-                                            <label for="contact-label-service-198010" class="ml-3 text-sm font-medium text-gray-700">Mattress Removal</label>
+                                            <label for="contact-label-service-198040" class="ml-3 text-sm font-medium text-gray-700">Mattress Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198011"
-                                                    name="198011"
+                                                    id="contact-service-198041"
+                                                    name="198041"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Virtual Consultations"
                                             />
-                                            <label for="contact-label-service-198011" class="ml-3 text-sm font-medium text-gray-700">Virtual Consultations</label>
+                                            <label for="contact-label-service-198041" class="ml-3 text-sm font-medium text-gray-700">Virtual Consultations</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198012"
-                                                    name="198012"
+                                                    id="contact-service-198042"
+                                                    name="198042"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Post Construction Cleaning"
                                             />
-                                            <label for="contact-label-service-198012" class="ml-3 text-sm font-medium text-gray-700">Post Construction Cleaning</label>
+                                            <label for="contact-label-service-198042" class="ml-3 text-sm font-medium text-gray-700">Post Construction Cleaning</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198013"
-                                                    name="198013"
+                                                    id="contact-service-198043"
+                                                    name="198043"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Recycling"
                                             />
-                                            <label for="contact-label-service-198013" class="ml-3 text-sm font-medium text-gray-700">Recycling</label>
+                                            <label for="contact-label-service-198043" class="ml-3 text-sm font-medium text-gray-700">Recycling</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198014"
-                                                    name="198014"
+                                                    id="contact-service-198044"
+                                                    name="198044"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Residential Services"
                                             />
-                                            <label for="contact-label-service-198014" class="ml-3 text-sm font-medium text-gray-700">Residential Services</label>
+                                            <label for="contact-label-service-198044" class="ml-3 text-sm font-medium text-gray-700">Residential Services</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198015"
-                                                    name="198015"
+                                                    id="contact-service-198045"
+                                                    name="198045"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Storm Debris Removal"
                                             />
-                                            <label for="contact-label-service-198015" class="ml-3 text-sm font-medium text-gray-700">Storm Debris Removal</label>
+                                            <label for="contact-label-service-198045" class="ml-3 text-sm font-medium text-gray-700">Storm Debris Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198016"
-                                                    name="198016"
+                                                    id="contact-service-198046"
+                                                    name="198046"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Yard Debris Removal"
                                             />
-                                            <label for="contact-label-service-198016" class="ml-3 text-sm font-medium text-gray-700">Yard Debris Removal</label>
+                                            <label for="contact-label-service-198046" class="ml-3 text-sm font-medium text-gray-700">Yard Debris Removal</label>
                                         </div>
                                         
                                     </div>
@@ -2515,156 +2523,156 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198003"
-                                                    name="198003"
+                                                    id="contact-service-198033"
+                                                    name="198033"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Appliance Removal"
                                             />
-                                            <label for="contact-label-service-198003" class="ml-3 text-sm font-medium text-gray-700">Appliance Removal</label>
+                                            <label for="contact-label-service-198033" class="ml-3 text-sm font-medium text-gray-700">Appliance Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198004"
-                                                    name="198004"
+                                                    id="contact-service-198034"
+                                                    name="198034"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Hot Tub Removal"
                                             />
-                                            <label for="contact-label-service-198004" class="ml-3 text-sm font-medium text-gray-700">Hot Tub Removal</label>
+                                            <label for="contact-label-service-198034" class="ml-3 text-sm font-medium text-gray-700">Hot Tub Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198005"
-                                                    name="198005"
+                                                    id="contact-service-198035"
+                                                    name="198035"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Commercial Services"
                                             />
-                                            <label for="contact-label-service-198005" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
+                                            <label for="contact-label-service-198035" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198006"
-                                                    name="198006"
+                                                    id="contact-service-198036"
+                                                    name="198036"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Electronic Waste Removal"
                                             />
-                                            <label for="contact-label-service-198006" class="ml-3 text-sm font-medium text-gray-700">Electronic Waste Removal</label>
+                                            <label for="contact-label-service-198036" class="ml-3 text-sm font-medium text-gray-700">Electronic Waste Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198007"
-                                                    name="198007"
+                                                    id="contact-service-198037"
+                                                    name="198037"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Furniture Removal"
                                             />
-                                            <label for="contact-label-service-198007" class="ml-3 text-sm font-medium text-gray-700">Furniture Removal</label>
+                                            <label for="contact-label-service-198037" class="ml-3 text-sm font-medium text-gray-700">Furniture Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198008"
-                                                    name="198008"
+                                                    id="contact-service-198038"
+                                                    name="198038"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Garbage Removal"
                                             />
-                                            <label for="contact-label-service-198008" class="ml-3 text-sm font-medium text-gray-700">Garbage Removal</label>
+                                            <label for="contact-label-service-198038" class="ml-3 text-sm font-medium text-gray-700">Garbage Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198009"
-                                                    name="198009"
+                                                    id="contact-service-198039"
+                                                    name="198039"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Cleanouts"
                                             />
-                                            <label for="contact-label-service-198009" class="ml-3 text-sm font-medium text-gray-700">Cleanouts</label>
+                                            <label for="contact-label-service-198039" class="ml-3 text-sm font-medium text-gray-700">Cleanouts</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198010"
-                                                    name="198010"
+                                                    id="contact-service-198040"
+                                                    name="198040"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Mattress Removal"
                                             />
-                                            <label for="contact-label-service-198010" class="ml-3 text-sm font-medium text-gray-700">Mattress Removal</label>
+                                            <label for="contact-label-service-198040" class="ml-3 text-sm font-medium text-gray-700">Mattress Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198011"
-                                                    name="198011"
+                                                    id="contact-service-198041"
+                                                    name="198041"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Virtual Consultations"
                                             />
-                                            <label for="contact-label-service-198011" class="ml-3 text-sm font-medium text-gray-700">Virtual Consultations</label>
+                                            <label for="contact-label-service-198041" class="ml-3 text-sm font-medium text-gray-700">Virtual Consultations</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198012"
-                                                    name="198012"
+                                                    id="contact-service-198042"
+                                                    name="198042"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Post Construction Cleaning"
                                             />
-                                            <label for="contact-label-service-198012" class="ml-3 text-sm font-medium text-gray-700">Post Construction Cleaning</label>
+                                            <label for="contact-label-service-198042" class="ml-3 text-sm font-medium text-gray-700">Post Construction Cleaning</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198013"
-                                                    name="198013"
+                                                    id="contact-service-198043"
+                                                    name="198043"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Recycling"
                                             />
-                                            <label for="contact-label-service-198013" class="ml-3 text-sm font-medium text-gray-700">Recycling</label>
+                                            <label for="contact-label-service-198043" class="ml-3 text-sm font-medium text-gray-700">Recycling</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198014"
-                                                    name="198014"
+                                                    id="contact-service-198044"
+                                                    name="198044"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Residential Services"
                                             />
-                                            <label for="contact-label-service-198014" class="ml-3 text-sm font-medium text-gray-700">Residential Services</label>
+                                            <label for="contact-label-service-198044" class="ml-3 text-sm font-medium text-gray-700">Residential Services</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198015"
-                                                    name="198015"
+                                                    id="contact-service-198045"
+                                                    name="198045"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Storm Debris Removal"
                                             />
-                                            <label for="contact-label-service-198015" class="ml-3 text-sm font-medium text-gray-700">Storm Debris Removal</label>
+                                            <label for="contact-label-service-198045" class="ml-3 text-sm font-medium text-gray-700">Storm Debris Removal</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-198016"
-                                                    name="198016"
+                                                    id="contact-service-198046"
+                                                    name="198046"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Yard Debris Removal"
                                             />
-                                            <label for="contact-label-service-198016" class="ml-3 text-sm font-medium text-gray-700">Yard Debris Removal</label>
+                                            <label for="contact-label-service-198046" class="ml-3 text-sm font-medium text-gray-700">Yard Debris Removal</label>
                                         </div>
                                         
                                     </div>
